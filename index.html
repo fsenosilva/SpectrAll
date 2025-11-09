@@ -1,109 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SpectrAll — Automated Risk Assessment</title>
-  <link rel="icon" href="favicon.ico" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="js/styles.js"></script>
-  <script src="js/mail.js"></script>
-</head>
-<body class="bg-grid bg-grid text-gray-100 font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpectrAll | Automated Risk Assessment</title>
+    <link rel="icon" href="favicon.ico" />
 
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gray-50 text-gray-800 mb-16">
-  <!-- Hero Icon -->
-  <img src="images/logo.svg" alt="SepectrAll logo" class="w-28 sm:w-38 h-auto mb-8">
-  <img src="images/spectrAll-text.png" alt="SepectrAll logo" class="w-32 sm:w-48 h-auto mb-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Hero Content -->
-  <h1 class="text-headings text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-    Automated Risk Assessment
-  </h1>
-  <p class="text-lg md:text-xl text-ntext max-w-2xl mb-8">
-    For Subsea and Maritime Infrastructure
-  </p>
-  <div class="flex flex-col sm:flex-row gap-4 mb-8">
-    <a href="#contact" class="bg-brand text-gray-600 px-8 py-3 rounded-lg font-medium hover:bg-green-300 transition">
-      Get In Touch
-    </a>
-    <a href="#features" class="border border-gray-600 text-gray-300 px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
-      Learn More
-    </a>
-  </div>
-</section>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/styles.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body class="bg-grid text-gray-100 font-sans font-light text-lg">
+    <section
+      class="min-h-screen flex flex-col justify-center items-center text-center px-6 text-gray-800 mb-16"
+    >
+      <!-- Hero Icon -->
+      <img
+        src="./images/logo.svg"
+        alt="SepectrAll logo"
+        class="w-28 sm:w-38 h-auto mb-8"
+      />
+      <img
+        src="./images/spectrAll-text.png"
+        alt="SepectrAll logo"
+        class="w-32 sm:w-48 h-auto mb-20"
+      />
 
-
-  <!-- Features -->
-  <section id="features" class="py-20 bg-gray-50 text-gray-800 mb-16">
-    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-center">
-      <div>
-        <h3 class="text-headings text-xl font-semibold mb-2">Modular Intelligence</h3>
-        <p class="text-ntext">Monitor continuously using AIS, SAR, cable sensors, and marine radars with the 
-          capability of adapting to new sources.
-        </p>
-      </div>
-      <div>
-        <h3 class="text-headings text-xl font-semibold mb-2">Hybrid Risk Analysis</h3>
-        <p class="text-ntext">Our system assesses the situation using a deterministic approach for assurance with
-          a layer of inference provided by AI for a deeper reasoning.
-        </p>
-      </div>
-      <div>
-        <h3 class="text-headings text-xl font-semibold mb-2">Fine-tuning</h3>
-        <p class="text-ntext">In a declarative way the system can be adjusted to different threat weights</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- About / CTA -->
-  <section class="py-20 bg-gray-50 text-gray-800 mb-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-headings text-3xl mb-6">Enhance Your Maritime Security</h2>
-      <p class="text-ntext mb-8">
-        SpectrAll protects maritime and subsea infrastructure through automated risk assessment.
-
-        Our system continuously monitors vessel behavior and environmental data to detect threats in real time. By combining AIS, radar, and satellite sources, we turn scattered maritime data into a clear, actionable picture.
-
-        From subsea cables to offshore energy, SpectrAll helps protect assets that are vital to national security and global connectivity.
+      <!-- Hero Content -->
+      <h1
+        class="text-headings text-4xl md:text-5xl font-extrabold mb-2 leading-tight"
+      >
+        Automated Risk Assessment
+      </h1>
+      <p class="text-lg md:text-2xl font-normal text-ntext max-w-4xl mb-8">
+        For Subsea and Maritime Infrastructure
       </p>
-      <a href="#contact" class="bg-brand text-gray-600 px-8 py-3 rounded-lg font-medium hover:bg-green-300 transition">
-        Schedule a Consultation
-      </a>
-    </div>
-  </section>
+      <div class="flex flex-col sm:flex-row gap-4 mb-8">
+        <a
+          href="#contact"
+          class="bg-brand text-gray-600 px-8 py-3 rounded-lg font-normal hover:bg-green-300 transition"
+        >
+          Get In Touch
+        </a>
+        <a
+          href="#features"
+          class="border border-gray-600 text-ntext px-8 py-3 rounded-lg font-normal hover:bg-gray-800 transition"
+        >
+          Learn More
+        </a>
+      </div>
+    </section>
 
-  <!-- Contact -->
+    <!-- Features -->
+    <section id="features" class="py-20 bg-green-gray text-gray-800 mb-16">
+      <div
+        class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-center"
+      >
+        <div>
+          <h3 class="text-headings text-xl font-semibold mb-2">
+            Modular Intelligence
+          </h3>
+          <p class="text-ntext">
+            Monitor continuously using AIS, SAR, cable sensors, and marine
+            radars with the capability of adapting to new sources.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-headings text-xl font-semibold mb-2">
+            Hybrid Risk Analysis
+          </h3>
+          <p class="text-ntext">
+            Our system assesses the situation using a deterministic approach for
+            assurance with a layer of inference provided by AI for a deeper
+            reasoning.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-headings text-xl font-semibold mb-2">Fine-tuning</h3>
+          <p class="text-ntext">
+            In a declarative way the system can be adjusted to different threat
+            weights in real time, adapting to evolving security needs.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact" class="text-center py-16 bg-gray-50 text-white">
-  <h2 class="text-headings text-3xl font-bold mb-6">Contact SpectrAll</h2>
-  <p class="text-gray-400 mb-8 max-w-md mx-auto">
-    Have questions about our maritime threat assessment solutions? Get in touch directly:
-  </p>
+    <!-- About / CTA -->
+    <section class="py-20 text-gray-800 mb-16">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-headings text-3xl mb-6">
+          Enhance Your Maritime Security
+        </h2>
+        <p class="text-ntext mb-16">
+          SpectrAll protects maritime and subsea infrastructure through
+          automated risk assessment. Our system continuously monitors vessel
+          behavior and environmental data to detect threats in real time. By
+          combining AIS, radar, and satellite sources, we turn scattered
+          maritime data into a clear, actionable picture. From subsea cables to
+          offshore energy, SpectrAll helps protect assets that are vital to
+          national security and global connectivity.
+        </p>
+        <a
+          href="#contact"
+          class="bg-brand text-gray-600 px-8 py-3 rounded-lg font-normal hover:bg-green-300 transition"
+        >
+          Schedule a Consultation
+        </a>
+      </div>
+    </section>
 
-  <div class="inline-flex items-center bg-gray-800 rounded-lg overflow-hidden">
-    <input id="emailAddress" type="text" readonly value="support@spectrall.eu"
-           class="bg-gray-800 text-gray-300 px-4 py-2 outline-none w-56 sm:w-72 text-center select-all">
-    <button onclick="copyEmail()" 
-            class="bg-brand hover:bg-green-300 text-gray-600 px-4 py-2 transition-colors">
-      Copy
-    </button>
-  </div>
+    <!-- Contact -->
 
-  <p id="copyMessage" class="text-green-400 text-sm mt-3 hidden">✅ Copied to clipboard!</p>
+    <section id="contact" class="text-center py-16 bg-green-gray text-white">
+      <h2 class="text-headings text-3xl font-bold mb-6">Contact SpectrAll</h2>
+      <p class="text-gray-600 mb-8 max-w-md mx-auto">
+        Have questions about our maritime threat assessment solutions?<br />
+        Get in touch directly:
+      </p>
 
-  <div class="mt-6">
-    <a href="mailto:support@spectrall.eu" 
-       class="text-blue-400 hover:text-blue-300 underline text-sm">
-       Or open in your email app
-    </a>
-  </div>
-</section>
+      <div
+        class="inline-flex items-center bg-gray-800 rounded-lg overflow-hidden"
+      >
+        <input
+          id="emailAddress"
+          type="text"
+          readonly
+          value="support@spectrall.eu"
+          class="bg-white text-gray-500 px-4 py-2 outline-none w-56 sm:w-72 text-center select-all"
+        />
+        <button
+          onclick="copyEmail()"
+          class="bg-brand hover:bg-green-300 font-normal text-gray-600 px-4 py-2 transition-colors"
+        >
+          Copy
+        </button>
+      </div>
 
-  <!-- Footer -->
-  <footer class="py-10 text-center text-gray-500 bg-brand">
-    <p>© 2025 SpectrAll. All rights reserved.</p>
-  </footer>
+      <p id="copyMessage" class="text-green-400 text-sm mt-3 hidden">
+        ✅ Copied to clipboard!
+      </p>
 
-</body>
+      <div class="mt-6">
+        <a
+          href="mailto:support@spectrall.eu"
+          class="text-headings hover:text-brand underline"
+        >
+          Or open in your email app
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center text-gray-500 bg-brand">
+      <p>© 2025 SpectrAll. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

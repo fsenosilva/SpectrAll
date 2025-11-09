@@ -1,5 +1,8 @@
     tailwind.config = {
       theme: {
+        fontFamily: {
+          sans: ['Oswald', 'sans-serif'],
+        },
         extend: {
           colors: {
             brand: '#8ddcab',
@@ -9,13 +12,16 @@
             ntext: '#595959'
 
           },
-           backgroundImage: {
-             'grid': 'linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px), linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px)',
+          backgroundColor: {
+            'grid': 'rgb(255, 255, 255)',
+            'green-gray': 'rgba(112, 176, 136, 0.15)',
           },
-           backgroundSize: {
-              'grid': '20px 20px',
-            }
+          backgroundImage: {
+            'grid': 'linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px), linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px)',
+          },
+          backgroundSize: {
+            'grid': '8px 8px',
+          }
         },
       },
     };
-

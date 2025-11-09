@@ -10,7 +10,7 @@ function sendEmail(event){
 
     window.location.href = mailto;
     event.preventDefault();
-    
+
 
 }
 
